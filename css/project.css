@@ -1,6 +1,8 @@
 body{
     background-color: #D2243F;
-    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
 }
 
 *{
@@ -18,31 +20,39 @@ body{
 
 .bulat-11 {
     position: absolute;
-    top: -100%;
-    left: -30%;
-    width: 1903px;
+    top: -190%;
+    left: -40%;
+    /* width: 1903px; */
+    width: 150%;
     aspect-ratio: 1 / 1;
     background-color: #D2243F;
     border-radius: 100%;
-    z-index: 12;
-    overflow: hidden;
+    z-index: -1;
 }
 
 .bulat-22 {
     position: absolute;
-    top: -200%;
+    top: -210%;
     left: -60%;
-    width: 2537px;
+    /* width: 2537px; */
+    width: 200%;
     aspect-ratio: 1 / 1;
     background-color: #DD304B;
     border-radius: 100%;
-    z-index: 11;
-    overflow: hidden;
+    z-index: -2;
 }
 
+.hero{
+    margin-top: 0;
+    height: 52vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
 
 .row-edit{
-    margin: -70px 0 0 0;
+    margin: 0;
     padding:0;
     position: relative;
     display: block;
@@ -67,9 +77,6 @@ body{
 
 }
 
-.hero{
-    height: auto;
-}
 
 
 .welcome-title{
@@ -79,8 +86,7 @@ body{
 .row-edit-2{
     margin:0;
     padding: 0;
-    position: relative;
-    display: block;
+    height: auto;
 }
 
 .dropdown{
@@ -127,17 +133,6 @@ body{
     grid-template-columns: auto auto;
     gap: 20px;
     height: auto;
-}
-
-@media only screen and (max-width: 700px){
-    .dropdown{
-        width: 90%;
-    }
-
-
-    .proj{
-        grid-template-columns: auto;
-    }
 }
 
 .card{
@@ -197,14 +192,23 @@ body{
     display: flex;
     flex-direction: column;
 
-    margin-top: 179px;
     
 }
 
 .pattern-footer{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+}
+
+.pattern-footer .left{
+    width: 50%;
+}
+
+.pattern-footer .right{
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .text-footer{
@@ -277,4 +281,162 @@ body{
 
 .sudut img{
     width: 100%;
+}
+
+
+@media only screen and (max-width: 700px){
+    
+    .navbar-brand{
+        width: 60%;
+        margin-left: 0;
+        font-size: 24px;
+        margin-left: 10px;
+    }
+    .navbar-brand img{
+        width: 15%;
+    }
+    .row-edit{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #title h1{
+        font-size: 2.5em;
+    }
+
+    .half {
+        margin: auto;
+        width: 90%;
+    
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 18px;
+    
+    }
+
+    .hero{
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .title-nl h1::after{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: -0px;
+        left: 280px;
+        background-size: contain;
+    
+    }
+    
+    .dropdown{
+        width: 90%;
+    }
+
+    .dropdown .btn{
+        font-size: 0.8em;
+
+    }
+
+    .dropdown-item{
+        font-size: 0.8em;
+    }
+
+
+    .proj{
+        grid-template-columns: auto;
+    }
+
+
+    .pattern-footer div{
+        width: 50%;
+    }
+
+    .card {
+        width: 80vw;
+        height: auto;
+    }
+
+    .head-card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .title-card{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-card .img-card{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .title-card h3{
+        padding-top: 10px;
+        font-size: 1.2em;
+
+        text-align: center;
+    }
+    
+    .cont-card{
+        height: 35%;
+
+    }
+    
+    .desc-card p{
+        font-size: 0.8em;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .card .read-card{
+        text-align: center;
+    }
+
+    .img-pattern{
+        width: 100%;
+    }
+
+    .pattern-footer .right{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    
+    .text-footer .title-ft{
+        margin-left: 10px;
+    
+    }
+    
+    .text-footer .title-ft p{
+        font-size: 1em;
+    }
+    
+    .text-footer .title-ft img{
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    
+    .socmed-ft{
+        margin-right: 10px;
+    }
+    
+    .socmed-ft .link-socmed-ft{
+        width: 30px;
+        height: 30px;
+        background-color: #FFF9F8;
+        margin-right: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
 }

@@ -7,6 +7,9 @@ const proj = document.querySelector('.proj');
 const card = document.querySelector('.card');
 const hero = document.querySelector('.hero');
 
+const body = document.querySelector('body');
+
+
 const NCPC = project.NCPC;
 const NUXC = project.NUXC;
 const NADC = project.NADC;
@@ -22,6 +25,9 @@ for(let i = 0; i < listItems.length; i++) {
         if(proj.innerHTML !== '') {
             proj.innerHTML = '';
         }
+
+        hero.style.height = 'auto';
+        body.style.overflowY = 'scroll';
         
         btn[0].innerText = this.innerHTML
         for (let j = 0; j < projects[i].length; j++) {
@@ -39,7 +45,7 @@ for(let i = 0; i < listItems.length; i++) {
             <div class="desc-card">
                 <p>${project.description}</p>
             </div>
-            <p>Read More</p>
+            <p class="read-card">Read More</p>
             `;
             proj.appendChild(div);
         }
