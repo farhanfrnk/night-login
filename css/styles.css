@@ -3,6 +3,7 @@ body {
     background-color: white;
     width: 100%;
     overflow-x: hidden;
+
 }
 
 #title {
@@ -72,6 +73,13 @@ p {
     margin-right: 40px;
 }
 
+.brand-text{
+    font-size: 40px;
+    color: white;
+    padding-left: 5px;
+    text-align: center;
+}
+
 
 /* See More Button */
 .see-button {
@@ -135,11 +143,6 @@ p {
     top: 260px;
 }
 
-@media only screen and (max-width: 768px) {
-    .vector-img {
-        display: none;
-    }
-}
 
 @media screen {}
 
@@ -151,8 +154,8 @@ p {
 .half {
     width: 50%;
     margin: auto;
-    width: 603px;
-    height: 72px;
+    max-width: 603px;
+    min-height: 72px;
 
     font-family: 'Poppins';
     font-style: normal;
@@ -574,4 +577,63 @@ p {
 
 .sos-links:hover {
     background-color: #D2243F;
+}
+
+@media (max-width: 768px) {
+    .vector-img {
+        display: none;
+    }
+    .welcome{
+        font-size: 60px;
+    }
+    .brand-text{
+        display:none;        
+    }
+    
+}
+
+@media (max-width: 576px){
+    .brand-text{
+        display:none;
+    }
+    #community{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #events{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .bulat1{
+        display:none;
+    }
+    .bulat2{
+        display:none;
+    }
+    .bulat4{
+        display:none;
+    }
+    .bulat5{
+        display:none;
+    }
+    .events-title{
+        font-size: 56px;
+    }
+    .teams-title{
+        font-size:30px;
+    }
+    .community-title{
+        width: 300px;
+        font-size: 20px;
+    }
+    .management-title{
+        width: 300px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 800px){
+    .red-background{
+        width: 100%;
+    }
 }
