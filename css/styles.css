@@ -73,7 +73,7 @@ p {
     margin-right: 40px;
 }
 
-.brand-text{
+.brand-text {
     font-size: 40px;
     color: white;
     padding-left: 5px;
@@ -228,6 +228,7 @@ p {
     z-index: 15;
     border-radius: 0 0 100px 100px;
     height: 100%;
+    background-color: #D2243F;
 
 }
 
@@ -579,61 +580,86 @@ p {
     background-color: #D2243F;
 }
 
+.logo-black{
+    text-decoration:none;
+}
+.brand2-text{
+    color: white;
+}
+
 @media (max-width: 768px) {
     .vector-img {
         display: none;
     }
-    .welcome{
+
+    .welcome {
         font-size: 60px;
     }
-    .brand-text{
-        display:none;        
+
+    .brand-text {
+        display: none;
     }
-    
+
 }
 
-@media (max-width: 576px){
-    .brand-text{
+@media (max-width: 576px) {
+    .brand-text {
+        display: none;
+    }
+
+    .brand2-text{
         display:none;
     }
-    #community{
+    #community {
         padding-left: 20px;
         padding-right: 20px;
     }
-    #events{
+
+    #events {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .bulat1{
-        display:none;
+
+    .bulat1 {
+        display: none;
     }
-    .bulat2{
-        display:none;
+
+    .bulat2 {
+        display: none;
     }
-    .bulat4{
-        display:none;
+
+    .bulat4 {
+        display: none;
     }
-    .bulat5{
-        display:none;
+
+    .bulat5 {
+        display: none;
     }
-    .events-title{
+
+    .events-title {
         font-size: 56px;
     }
-    .teams-title{
-        font-size:30px;
+
+    .teams-title {
+        font-size: 30px;
     }
-    .community-title{
+
+    .community-title {
         width: 300px;
         font-size: 20px;
     }
-    .management-title{
+
+    .management-title {
         width: 300px;
         font-size: 20px;
     }
 }
 
-@media (max-width: 800px){
-    .red-background{
+@media (max-width: 800px) {
+    .red-background {
         width: 100%;
+    }
+    .carousel-text{
+        font-size: 24px;
     }
 }
