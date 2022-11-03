@@ -2,7 +2,6 @@ body{
     background-color: #D2243F;
     overflow-x: hidden;
     overflow-y: hidden;
-
 }
 
 *{
@@ -10,6 +9,7 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+
 
 .red-curve-wrap-1 {
     position: static;
@@ -48,6 +48,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow-x: hidden;
     
 }
 
@@ -286,6 +287,10 @@ body{
 
 @media only screen and (max-width: 700px){
     
+    .navbar {
+        margin: 0 0 0;
+    }
+    
     .navbar-brand{
         width: 60%;
         margin-left: 0;
@@ -315,11 +320,15 @@ body{
     }
 
     .hero{
-        height: 50vh;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         
+    }
+
+    .title-nl{
+        margin-top: 22vh;
     }
 
     .title-nl h1::after{
