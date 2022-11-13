@@ -23,6 +23,10 @@
   <!-- CSS -->
   <link rel="stylesheet" href="css/styles.css">
 
+  <!-- ANIMATE CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
 <body>
   <div class="red-curve-wrap">
     <div class="bulat1"></div>
@@ -34,7 +38,7 @@
           <div class="container-fluid">
 
             <!-- Nav Bar -->
-            <nav class="navbar navbar-expand-lg navbar-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark animate__animated animate__fadeInDown">
               <a class="navbar-brand" href=""><img class="brand-img" src="images/logonl.png"
                   alt="Night Login Logo"><span class="brand-text">NIGHT LOGIN</span>
               </a>
@@ -64,15 +68,15 @@
             <!-- Title -->
             <div class="row">
               <div class="col-lg-12">
-                <h4 class="rounded-red">Hi, Fellas</h4>
-                <h1 class="welcome">Welcome to Night Login!</h1>
-                <img class="vector-img" src="images/vektor.png" alt="">
-                <h3 class="half">A community that accommodates students interest
+                <h4 class="rounded-red animate__animated animate__fadeInLeft">Hi, Fellas</h4>
+                <h1 class="welcome animate__animated animate__fadeInDown">Welcome to Night Login!</h1>
+                <img class="vector-img animate__animated animate__fadeInRight" src="images/vektor.png" alt="">
+                <h3 class="half animate__animated animate__fadeInUp">A community that accommodates students interest
                   in the IT field through several activities inside it.</h3>
 
                 <div>
-                  <a href="#events" class="btn see-button" type="button">
-                    <div>See More</div><br><i class="fa-solid fa-v fab animation-bounce"></i>
+                  <a href="#events" class="btn see-button animate__animated animate__fadeInUp" type="button">
+                    <div>See More</div><br><i class="fa-solid fa-v fab animation-loncat"></i>
                   </a>
                 </div>
               </div>
@@ -84,15 +88,15 @@
 
         <section id="events">
           <div class="card-deck">
-            <h2 class="events-title">Events</h2>
+            <h2 class="events-title card-left">Events</h2>
             <div class="row">
               <div class="col-lg-4 col-md-6 events-column">
                 <div class="events-card">
                   <div class="events-card-wrap">
                     <div class="card-body events-wrap">
-                      <img class="events-img" src="images/findit.png" alt="Lomba Find IT">
-                      <h3 class="card-title">Find IT!</h3>
-                      <p class="paragraphtext paragraphtext_events">FIND IT (Future Innovation and Discovery Information
+                      <img class="events-img card-big" src="images/findit.png" alt="Lomba Find IT">
+                      <h3 class="card-title card-left">Find IT!</h3>
+                      <p class="paragraphtext paragraphtext_events card-left">FIND IT (Future Innovation and Discovery Information
                         and
                         Technology), is an
                         annual event organized by
@@ -108,9 +112,9 @@
                 <div class="events-card">
                   <div class="events-card-wrap">
                     <div class="card-body events-wrap">
-                      <img class="events-img" src="images/AHT.png" alt="After Hours Talk">
-                      <h3 class="card-title">After Hours Talk</h3>
-                      <p class="paragraphtext paragraphtext_events">Lorem ipsum dolor sit amet, consectetur adipiscing
+                      <img class="events-img card-big" src="images/AHT.png" alt="After Hours Talk">
+                      <h3 class="card-title card-left">After Hours Talk</h3>
+                      <p class="paragraphtext paragraphtext_events card-left">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit.
                         Ut ut ornare arcu.
                         Aenean commodo vehicula
@@ -127,9 +131,9 @@
                 <div class="events-card">
                   <div class="events-card-wrap">
                     <div class="card-body events-wrap">
-                      <img class="events-img" src="images/workshop.png" alt="Internal Workshop">
-                      <h3 class="card-title">Internal Workshop</h3>
-                      <p class="paragraphtext paragraphtext_events">Sharpen your skill by actively participate in
+                      <img class="events-img card-big" src="images/workshop.png" alt="Internal Workshop">
+                      <h3 class="card-title card-left">Internal Workshop</h3>
+                      <p class="paragraphtext paragraphtext_events card-left">Sharpen your skill by actively participate in
                         internal
                         workshops held by each
                         community.</p>
@@ -152,11 +156,11 @@
     <div class="white-curve">
       <section id="ourteams">
         <div class="card-deck">
-          <h2 class="teams-title black-text">Meet Our <span class="red-text">Teams</span></h2>
-          <h2 class="rounded-red community-title">President & Vice President</h2>
+          <h2 class="teams-title black-text card-right">Meet Our <span class="red-text">Teams</span></h2>
+          <h2 class="rounded-red community-title card-right">President & Vice President</h2>
           <div class="row team-row">
             <div class="col-lg-6 col-md-6 teams-column">
-              <div class="teams-card">
+              <div class="teams-card card-left">
                 <div class="card-body card-body-wrap">
                   <img class="teams-img" src="images/president.png" alt="President NL UGM">
                   <h3 class="card-title">Samatha Marhaendra Putra</h3>
@@ -166,7 +170,7 @@
 
 
             <div class="col-lg-6 col-md-6 teams-column">
-              <div class="teams-card">
+              <div class="teams-card card-right">
                 <div class="card-body card-body-wrap">
                   <img class="teams-img" src="images/vicepresident.png" alt="Vice President NL UGM">
                   <div class="name-wrap">
@@ -177,9 +181,9 @@
             </div>
           </div>
 
-          <h2 class="rounded-red management-title">Management Teams</h2>
+          <h2 class="rounded-red management-title card-left">Management Teams</h2>
           <div class="red-wrap">
-            <div id="teams-image" class="carousel slide red-background" data-ride="false">
+            <div id="teams-image" class="carousel slide red-background card-left" data-ride="false">
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <div class="white-back">
@@ -232,10 +236,10 @@
       <!-- Community Teams -->
       <section id="community">
         <div class="card-deck">
-          <h2 class="rounded-red community-title">Community Teams</h2>
+          <h2 class="rounded-red community-title card-right">Community Teams</h2>
           <div class="row">
             <div class="col-lg-4 events-column">
-              <div class="card card-com">
+              <div class="card card-com card-left">
                 <div class="card-body">
                   <img class="com-img" src="images/NCPC.png" alt="NCPC UGM">
                   <div class="team-name">
@@ -255,7 +259,7 @@
             </div>
 
             <div class="col-lg-4 events-column">
-              <div class="card card-com">
+              <div class="card card-com card-big">
                 <div class="card-body">
                   <img class="com-img" src="images/NUXC.png" alt="NUXC UGM">
                   <div class="team-name">
@@ -275,7 +279,7 @@
             </div>
 
             <div class="col-lg-4 events-column">
-              <div class="card card-com">
+              <div class="card card-com card-right">
                 <div class="card-body">
                   <img class="com-img" src="images/NADC.png" alt="NADC UGM">
                   <div class="team-name">
@@ -297,7 +301,7 @@
 
         <div class="row">
           <div class="col-lg-4 events-column">
-            <div class="card card-com">
+            <div class="card card-com card-left">
               <div class="card-body">
                 <img class="com-img" src="images/NDDC.png" alt="NDDC UGM">
                 <div class="team-name">
@@ -315,7 +319,7 @@
           </div>
 
           <div class="col-lg-4 events-column">
-            <div class="card card-com">
+            <div class="card card-com card-big">
               <div class="card-body">
                 <img class="com-img" src="images/NLNC.png" alt="NLNC UGM">
                 <div class="team-name">
@@ -333,7 +337,7 @@
           </div>
 
           <div class="col-lg-4 events-column">
-            <div class="card card-com">
+            <div class="card card-com card-right">
               <div class="card-body">
                 <img class="com-img" src="images/NWDC.png" alt="NWDC UGM">
                 <div class="team-name">
@@ -363,7 +367,8 @@
         <img class="pattern" src="images\pattern.png" alt="Pattern Night Login">
 
         <div class="footer">
-          <a class="logo-black" href="#"><img src="images\logo_nl_black.png" alt=""><span class="brand2-text"> NIGHT LOGIN</span></a>
+          <a class="logo-black" href="#"><img src="images\logo_nl_black.png" alt=""><span class="brand2-text"> NIGHT
+              LOGIN</span></a>
           <div class="logos">
 
             <div class="round-logo">
@@ -394,7 +399,7 @@
     </div>
   </div>
 
-
+<script src="javascript.js"></script>
 </body>
 
 
