@@ -625,7 +625,7 @@ p {
 
     .back-button {
         transform: scale(0.8);
-        right: 1px;
+        right: 10px;
         bottom: 8px;
     }
 }
