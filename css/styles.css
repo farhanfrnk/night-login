@@ -1,9 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Poppins";
     background-color: white;
     width: 100%;
     overflow-x: hidden;
+}
 
+html {
+    scroll-behavior: smooth;
 }
 
 #title {
@@ -88,12 +95,12 @@ p {
 
 }
 
-.animation-bounce {
-    animation: bounce 1s infinite;
+.animation-loncat {
+    animation: loncat 1s infinite;
 
 }
 
-@keyframes bounce {
+@keyframes loncat {
 
     0%,
     100% {
@@ -131,6 +138,7 @@ p {
 
 .welcome {
     font-size: 96px;
+    padding: 0 10px;
 }
 
 .vector-img {
@@ -519,6 +527,20 @@ p {
     margin-right: 50px;
     margin-top: -80px;
     padding-bottom: 20px;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+    transform: scale(0.9);
+}
+
+.aktif {
+    right: 32px;
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
 }
 
 .back {
@@ -580,10 +602,11 @@ p {
     background-color: #D2243F;
 }
 
-.logo-black{
-    text-decoration:none;
+.logo-black {
+    text-decoration: none;
 }
-.brand2-text{
+
+.brand2-text {
     color: white;
 }
 
@@ -600,6 +623,11 @@ p {
         display: none;
     }
 
+    .back-button {
+        transform: scale(0.8);
+        right: 1px;
+        bottom: 8px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -607,9 +635,10 @@ p {
         display: none;
     }
 
-    .brand2-text{
-        display:none;
+    .brand2-text {
+        display: none;
     }
+
     #community {
         padding-left: 20px;
         padding-right: 20px;
@@ -653,13 +682,47 @@ p {
         width: 300px;
         font-size: 20px;
     }
+    .back-button {
+        transform: scale(0.6);
+        right: -20px;
+        bottom: -10px;
+    }
 }
 
 @media (max-width: 800px) {
     .red-background {
         width: 100%;
     }
-    .carousel-text{
+
+    .carousel-text {
         font-size: 24px;
     }
+}
+
+.card-right {
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 150ms;
+}
+
+.card-left {
+    transform: translateX(-100px);
+    opacity: 0;
+    transition: 150ms;
+}
+
+.card-big {
+    transform: scale(0.7);
+    opacity: 0;
+    transition: 150ms;
+}
+
+.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.show-big {
+    transform: scale(1);
+    opacity: 1;
 }
