@@ -684,8 +684,8 @@ p {
     }
     .back-button {
         transform: scale(0.6);
-        right: -20px;
-        bottom: -10px;
+        right: 0px;
+        bottom: 0px;
     }
 }
 
