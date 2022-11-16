@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: "Poppins";
     background-color: white;
@@ -180,7 +181,6 @@ p {
     position: absolute;
     top: -180%;
     left: -40%;
-    /* width: 1903px; */
     width: 150%;
     aspect-ratio: 1 / 1;
     background-color: #D2243F;
@@ -256,6 +256,7 @@ p {
 .white-curve-wrap {
     position: static;
     background-color: white;
+    overflow: hidden;
 }
 
 .main {
@@ -263,8 +264,6 @@ p {
     z-index: 10;
     height: 100%;
 }
-
-
 
 /* Events Section */
 #events {
@@ -682,10 +681,11 @@ p {
         width: 300px;
         font-size: 20px;
     }
+
     .back-button {
         transform: scale(0.6);
-        right: 30px;
-        bottom: 0px;
+        right: -20px;
+        bottom: -10px;
     }
 }
 
@@ -697,6 +697,28 @@ p {
     .carousel-text {
         font-size: 24px;
     }
+}
+
+@media (min-width: 1500px) {
+    .vector-img {
+        display: none;
+    }
+
+    .bulat2 {
+        display: none;
+    }
+
+    .bulat4 {
+        display: none;
+    }
+
+    .bulat5 {
+        display: none;
+    }
+}
+
+.pattern {
+    padding: 0;
 }
 
 .card-right {
