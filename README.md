@@ -1,4 +1,4 @@
-# Internal Project: NUXC x NWDC :shipit:
+# :gem::gem::gem:Internal Project: NUXC x NWDC :gem::gem::gem:
 # Kelompok 4 :trophy: :moneybag:
 # 1. Pramudya Kusuma Hardika 2020 NUXC :apple:
 # 2. Vito Hartanto 2020 NWDC :pineapple:
