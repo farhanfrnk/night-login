@@ -1,5 +1,7 @@
 # Internal Project: NUXC x NWDC
-# Kelompok 4:
+# Kelompok 4 :trophy:
 # Pramudya Kusuma Hardika 2020 NUXC
 # Vito Hartanto 2020 NWDC
 # Farhan Franaka 2021 NWDC
+
+# Deploy: test-deploy-nl.netlify.app
