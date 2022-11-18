@@ -5,3 +5,5 @@
 # :watermelon:Farhan Franaka TIF 21 NWDC
 
 # Result: https://test-deploy-nl.netlify.app/ :hamburger:
+# Laporan: https://pramudyadika.medium.com/night-login-website-an-ui-ux-case-study-b093ecf54b7 :fried_egg:
+
