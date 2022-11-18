@@ -1,7 +1,7 @@
 # :gem::gem::gem:Internal Project: NUXC x NWDC :gem::gem::gem:
-# Kelompok 4 :trophy: :moneybag:
-# 1. Pramudya Kusuma Hardika 2020 NUXC :apple:
-# 2. Vito Hartanto 2020 NWDC :pineapple:
-# 3. Farhan Franaka 2021 NWDC :watermelon:
+# :trophy::moneybag::trophy:Kelompok 4:trophy::moneybag::trophy:
+# :apple:Pramudya Kusuma Hardika TIF 2020 NUXC 
+# :pineapple:Vito Hartanto TE 2020 NWDC 
+# :watermelon:Farhan Franaka TIF 2021 NWDC
 
-# Deploy: test-deploy-nl.netlify.app :octocat:
+Deploy: test-deploy-nl.netlify.app
