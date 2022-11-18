@@ -4,4 +4,4 @@
 # :pineapple:Vito Hartanto TE 2020 NWDC 
 # :watermelon:Farhan Franaka TIF 2021 NWDC
 
-Deploy: test-deploy-nl.netlify.app
+# Result: https://test-deploy-nl.netlify.app/ :hamburger:
